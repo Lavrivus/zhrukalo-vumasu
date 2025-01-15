@@ -200,7 +200,7 @@ img {
     height: 100vh;
     opacity: 0;
     pointer-events: none;
-    padding: min(60px, 4rem);
+    padding: min(60px, 6vw);
     text-align: center;
     transition: opacity 0.2s ease;
 }
