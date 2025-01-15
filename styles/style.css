@@ -200,7 +200,7 @@ img {
     height: 100vh;
     opacity: 0;
     pointer-events: none;
-    padding: 6vw;
+    padding: min(60px, 4rem);
     text-align: center;
     transition: opacity 0.2s ease;
 }
@@ -219,7 +219,7 @@ body.active{
     height: 100%;
     box-shadow: 0px 0px 60px #000;
     pointer-events: all;
-    padding: 30px 30px;
+    padding: 60px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
