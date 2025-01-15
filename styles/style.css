@@ -274,6 +274,6 @@ li:not(:last-child) {
 
 @media only screen and (min-width: 1024px) {
     #popup__img {
-        display: block;
+        display: none;
     }
 }
