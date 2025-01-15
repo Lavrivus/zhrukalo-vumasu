@@ -260,7 +260,7 @@ li:not(:last-child) {
 #popup__img{
     width: min(60%, 290px);
     position: relative;
-
+    display: none;
 }
 
 #popup_img img{
@@ -272,8 +272,8 @@ li:not(:last-child) {
     height: 100%;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (min-width: 1024px) {
     #popup__img {
-        display: none;
+        display: block;
     }
 }
